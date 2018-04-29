@@ -11,7 +11,7 @@ module.exports = function (cb) {
   var config = {}
   var overrides = {}
 
-  // 1. load conf overrides file if present
+  // 1. load conf overrides file if present test
   if(!_.isUndefined(args.conf)){
     try {
       overrides = require(path.resolve(process.cwd(), args.conf))
